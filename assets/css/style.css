@@ -1,0 +1,109 @@
+.container {
+    max-width: 845px;
+}
+
+/** Header **/
+#masthead {
+    background: #fff;
+    margin: 0 0 30px;
+    color: #fff;
+    border-bottom: 2px solid #ccc;
+        
+}
+
+.navbar-light .navbar-brand {
+
+    color: #fff;
+}
+
+.navbar-brand {
+    height: 90px;
+    width: 250px;
+    background: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    line-height: 90px;
+    font-size: 30px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.navbar-nav {
+  
+    margin-top: 25px;
+}
+
+.nav-item a {
+    color: #999;
+    text-decoration: none;
+    margin-left: 15px;
+    border-left: 1px solid #efefef;
+    padding-left: 15px;
+    line-height: 18px;
+}
+
+.nav-item a:first-child {
+    border-left: 0 none;
+
+}
+
+body {
+    font-size: 18px;
+    line-height: 34px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777;
+    background: url(images/dust_scratches.png)
+}
+
+.container {
+    width: 100%;
+    max-width: 845px;
+    margin: 0 auto;
+    clear: both;
+}
+
+h1, h2, h3, p {
+    margin-bottom: 20px;
+}
+
+p:last-child {
+    margin-bottom: 0;
+}
+
+h1, h2, h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    color: #4aaaa5;
+}
+
+h1 {
+    font-size: 30px;
+    line-height: 49px;
+    border-bottom: 3px solid #ddd;
+    padding-bottom: 20px;
+}
+
+h2, h3 {
+    font-size: 22px;
+}
+
+.auth-image {
+    width: 200px;
+    height: auto;
+    margin-top: 10px;
+    float: left;
+    margin-right: 25px;
+}
+
+footer {
+    background: #666;
+    color: #fff;
+    padding: 30px 0;
+    clear: both;
+    border-top: 8px solid #4aaaa5;
+    color: #ccc;
+    font-size: 12px;
+    text-align: center;
+    bottom: 0;
+
+}
